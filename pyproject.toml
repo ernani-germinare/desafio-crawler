@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "desafio-crawler"
+version = "0.1.0"
+description = ""
+authors = ["Ernani <contato@ernani.dev>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+html5lib = "^1.1"
+selenium = "^4.14.0"
+fastapi = "^0.103.2"
+sqlmodel = "^0.0.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
